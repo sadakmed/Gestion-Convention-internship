@@ -1,7 +1,10 @@
+using System;
+using System.Collections.Generic;
 using System.Text;
 using Gestion_Convention_stage.Models;
 using Microsoft.EntityFrameworkCore;
 using MySql.Data.EntityFrameworkCore.Extensions;
+using System.Linq;
 
 namespace Gestion_Convention_stage.Contexts
 {
@@ -70,16 +73,50 @@ namespace Gestion_Convention_stage.Contexts
       using (var context = new LibraryContext())
       {
         var Admins = context.student;
-        // foreach(var a in Admins)
-        // {
-        //   var data = new StringBuilder();
-        //   data.AppendLine($"ID: {a.apoge}");
-        //   data.AppendLine($"name: {a.name}");
-        //   Console.WriteLine(data.ToString());
-        // }
+        foreach(var a in Admins)
+        {
+          var data = new StringBuilder();
+          data.AppendLine($"ID: {a.apoge}");
+          data.AppendLine($"name: {a.l_name}");
+          Console.WriteLine(data.ToString());
+        }
       }
     }
 
     
+     public static List<Student> fetchOneStudent(int apoge)
+    { List<Student> studentList = new List<Student>();    
+
+      // Gets and prints all books in database
+      using (var context = new LibraryContext())
+      {
+        var query =  context.student;
+
+                studentList.AddRange(from st in query
+                                     where st.apoge == apoge
+                                     select st);
+                return studentList;
+
+      }
   }
-}
+
+  public static List<Demande> fetchDemandeStudent(int apoge)
+    { List<Demande> demandeList = new List<Demande>();    
+
+      // Gets and prints all books in database
+      using (var context = new LibraryContext())
+      {
+        var query =  context.demande;
+
+                demandeList.AddRange(from st in query
+                                     where st.idStudent == apoge
+                                     select st);
+                return demandeList;
+
+      }
+  }
+
+
+
+
+}}

@@ -27,8 +27,13 @@ namespace Gestion_Convention_stage.Controllers
         }
 
         public IActionResult History()
-        {
-            return View();
+
+
+        {   List<Demande> demandeList= new List<Demande>();
+            
+            demandeList=MyContext.fetchDemandeStudent(this.apoge); 
+            
+            return View(demandeList);
         }
 
         public void saveStudent(Student student){
@@ -42,7 +47,7 @@ namespace Gestion_Convention_stage.Controllers
             Response.Redirect("Demande",true);
         }
         public void saveDemande(Demande de){
-            de.idStudent=apoge;
+            de.idStudent=this.apoge;
             de.status=0;
             MyContext.InsertDemande(de);
             Response.Redirect("History",true);

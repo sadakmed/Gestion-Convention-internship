@@ -51,7 +51,7 @@ public class Demande{
         var demandeDB = context.demande;        
      
         foreach(var a in demandeDB){
-            if (this.idStudent == a.idStudent){
+            if (this.idStudent == a.idStudent && a.status != -1 ){
                 Console.WriteLine("In DataBase");
                 return 1 ;
             }
@@ -62,15 +62,6 @@ public class Demande{
     }
 }
 
-
- 
-
-
     
 }
-
-
-
-
-
 }

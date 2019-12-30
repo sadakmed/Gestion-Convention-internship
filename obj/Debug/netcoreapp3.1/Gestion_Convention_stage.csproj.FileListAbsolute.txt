@@ -40,10 +40,10 @@
 /home/akura/Software/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
 /home/akura/Software/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/MySql.Data.dll
 /home/akura/Software/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/MySql.Data.EntityFrameworkCore.dll
-/home/akura/Software/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/Remotion.Linq.dll
 /home/akura/Software/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
-/home/akura/Software/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/System.Interactive.Async.dll
 /home/akura/Software/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
 /home/akura/Software/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
 /home/akura/Software/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Razor/Views/Student/Demande.cshtml.g.cs
 /home/akura/Software/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Razor/Views/Student/History.cshtml.g.cs
+/home/akura/Software/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/Remotion.Linq.dll
+/home/akura/Software/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/System.Interactive.Async.dll
