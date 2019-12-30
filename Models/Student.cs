@@ -1,7 +1,10 @@
 using System;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Gestion_Convention_stage.Models
 {
@@ -30,16 +33,11 @@ public class Student{
 
     [Required]
     [DisplayName("Password")]
-    [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 6)]
-    [RegularExpression(@"^((?=.*[a-z])(?=.*[A-Z])(?=.*\d)).+$")]
     [DataType(DataType.Password)]
-    public string Password{get;set;}
+    public string password{get;set;}
     
     public int demande{ get;set; }
-    
-
-
-
+   
 
 }
 

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Gestion_Convention_stage.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Gestion_Convention_stage.Controllers
 {
@@ -19,7 +20,10 @@ namespace Gestion_Convention_stage.Controllers
         }
 
         public IActionResult Index()
-        {
+        {   
+            
+
+
             return View();
         }
 
