@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Gestion_Convention_stage.Models;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Gestion_Convention_stage.Contexts;
+
 
 namespace Gestion_Convention_stage.Controllers
 {
@@ -29,6 +31,25 @@ namespace Gestion_Convention_stage.Controllers
 
         public IActionResult Privacy()
         {
+            return View();
+        }
+
+          public IActionResult login(Student st)
+        {
+          Console.WriteLine(MyContext.loginAccessStudent(st));     
+          if (MyContext.loginAccessStudent(st)){
+              Console.WriteLine("in student controller");
+
+          }             
+          else if (MyContext.loginAccessAdmin(st)) {
+
+              Console.WriteLine("in admin controller");
+          }
+          else {
+
+              Console.WriteLine("access access denied");
+          }
+                
             return View();
         }
 

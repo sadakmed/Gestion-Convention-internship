@@ -41,6 +41,7 @@ namespace Gestion_Convention_stage.Controllers
             this.apoge=student.apoge;
             student.demande=0;
             
+            
 
             MyContext.InsertStudent(student);
 

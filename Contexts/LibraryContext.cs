@@ -13,7 +13,7 @@ namespace Gestion_Convention_stage.Contexts
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-      optionsBuilder.UseMySQL("server=localhost;database=stage;user=akura;password=akura");
+      optionsBuilder.UseMySQL("server=localhost;database=stage;user=ali;password=joubir");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -49,7 +49,7 @@ namespace Gestion_Convention_stage.Contexts
           entity.HasKey(e => e.email); 
           entity.Property(e => e.f_name).IsRequired();
           entity.Property(e => e.l_name).IsRequired();
-          entity.Property(e => e.Password).IsRequired();
+          entity.Property(e => e.password).IsRequired();
 
       });
 

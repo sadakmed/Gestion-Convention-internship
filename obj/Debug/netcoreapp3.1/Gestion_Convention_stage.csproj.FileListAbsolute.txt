@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /home/akura/Software/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Gestion_Convention_stage.csprojAssemblyReference.cache
 /home/akura/Software/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/staticwebassets/Gestion_Convention_stage.StaticWebAssets.Manifest.cache
 /home/akura/Software/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/staticwebassets/Gestion_Convention_stage.StaticWebAssets.xml
@@ -47,3 +48,54 @@
 /home/akura/Software/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Razor/Views/Student/History.cshtml.g.cs
 /home/akura/Software/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/Remotion.Linq.dll
 /home/akura/Software/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/System.Interactive.Async.dll
+=======
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/appsettings.Development.json
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/appsettings.json
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/Gestion_Convention_stage.exe
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/Gestion_Convention_stage.deps.json
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/Gestion_Convention_stage.runtimeconfig.json
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/Gestion_Convention_stage.runtimeconfig.dev.json
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/Gestion_Convention_stage.dll
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/Gestion_Convention_stage.pdb
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/Gestion_Convention_stage.Views.dll
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/Gestion_Convention_stage.Views.pdb
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/MySql.Data.dll
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/MySql.Data.EntityFrameworkCore.dll
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/Remotion.Linq.dll
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/System.Interactive.Async.dll
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Gestion_Convention_stage.csprojAssemblyReference.cache
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/staticwebassets/Gestion_Convention_stage.StaticWebAssets.Manifest.cache
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/staticwebassets/Gestion_Convention_stage.StaticWebAssets.xml
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Gestion_Convention_stage.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Gestion_Convention_stage.RazorAssemblyInfo.cache
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Gestion_Convention_stage.RazorAssemblyInfo.cs
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Gestion_Convention_stage.AssemblyInfoInputs.cache
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Gestion_Convention_stage.AssemblyInfo.cs
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Gestion_Convention_stage.TagHelpers.input.cache
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Gestion_Convention_stage.TagHelpers.output.cache
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Gestion_Convention_stage.RazorCoreGenerate.cache
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Razor/Views/Home/login.cshtml.g.cs
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_CookieConsentPartial.cshtml.g.cs
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Razor/Views/Student/Demande.cshtml.g.cs
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Razor/Views/Student/History.cshtml.g.cs
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Razor/Views/Student/Signup.cshtml.g.cs
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Gestion_Convention_stage.RazorTargetAssemblyInfo.cache
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Gestion_Convention_stage.RazorTargetAssemblyInfo.cs
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Gestion_Convention_stage.Views.pdb
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Gestion_Convention_stage.csproj.CopyComplete
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Gestion_Convention_stage.dll
+C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Gestion_Convention_stage.pdb
+>>>>>>> Ali

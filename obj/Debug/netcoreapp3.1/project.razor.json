@@ -20506,6 +20506,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/akura/Software/Gestion_Convention_stage/Views/Admin/Demandes.cshtml",
+      "TargetPath": "Views/Admin/Demandes.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/akura/Software/Gestion_Convention_stage/Views/Home/login.cshtml",
       "TargetPath": "Views/Home/login.cshtml",
       "FileKind": "mvc"
@@ -20543,6 +20548,11 @@
     {
       "FilePath": "/home/akura/Software/Gestion_Convention_stage/Views/Home/Index.cshtml",
       "TargetPath": "Views/Home/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/akura/Software/Gestion_Convention_stage/Views/Admin/History.cshtml",
+      "TargetPath": "Views/Admin/History.cshtml",
       "FileKind": "mvc"
     },
     {
