@@ -7,22 +7,48 @@ using Microsoft.AspNetCore.Mvc;
 using Gestion_Convention_stage.Models;
 using System.Text.Encodings.Web;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Gestion_Convention_stage.Contexts;
 
 namespace Gestion_Convention_stage.Controllers
 {
     public class StudentController:Controller
     {
-         public IActionResult Signup()
+     
+        public int apoge { get; set; }
+
+        public IActionResult Signup()
         {
             return View();
         }
+
+        public IActionResult Demande()
+        {
+            return View();
+        }
+
+        public IActionResult History()
+        {
+            return View();
+        }
+
         public void saveStudent(Student student){
 
-            Console.WriteLine(student.apoge);
+            this.apoge=student.apoge;
+            student.demande=0;
+            
 
-            Response.Redirect("Signup",true);
+            MyContext.InsertStudent(student);
+
+            Response.Redirect("Demande",true);
         }
-        
+        public void saveDemande(Demande de){
+            de.idStudent=apoge;
+            de.status=0;
+            MyContext.InsertDemande(de);
+            Response.Redirect("History",true);
+
+
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

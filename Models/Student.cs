@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
 using System.ComponentModel.DataAnnotations.Schema;
+using Gestion_Convention_stage.Contexts;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Gestion_Convention_stage.Models
@@ -37,7 +38,27 @@ public class Student{
     public string password{get;set;}
     
     public int demande{ get;set; }
-   
+
+    public int checkData(){
+
+        using (var context = new LibraryContext())
+      {
+        var AdminsDB = context.student;        
+     
+        foreach(var a in AdminsDB){
+            if (this.apoge == a.apoge){
+                Console.WriteLine("In DataBase");
+                return 1 ;
+            }
+        }
+        Console.WriteLine("Not In DataBase");
+        return 0 ;
+
+    }
+}
+    
+    
+  
 
 }
 

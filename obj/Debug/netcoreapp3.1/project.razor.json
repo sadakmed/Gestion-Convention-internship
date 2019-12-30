@@ -20546,6 +20546,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/akura/Software/Gestion_Convention_stage/Views/Student/History.cshtml",
+      "TargetPath": "Views/Student/History.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/akura/Software/Gestion_Convention_stage/Views/Shared/_CookieConsentPartial.cshtml",
       "TargetPath": "Views/Shared/_CookieConsentPartial.cshtml",
       "FileKind": "mvc"
