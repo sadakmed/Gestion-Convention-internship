@@ -6,6 +6,10 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Gestion_Convention_stage.Models;
+using Gestion_Convention_stage.Contexts;
+
+
 
 namespace Gestion_Convention_stage
 {

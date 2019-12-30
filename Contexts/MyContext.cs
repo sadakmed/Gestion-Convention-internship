@@ -8,6 +8,39 @@ namespace Gestion_Convention_stage.Contexts
 
   public class MyContext
   {
+
+
+    public static bool loginAccessStudent(Student st){
+    
+      using (var context = new LibraryContext()){
+        var StudentDB = context.student; 
+        foreach(var a in StudentDB){
+        if (st.email == a.email && st.password == a.password ){
+          return true ;
+            }
+            }
+        
+            return false ;
+          } 
+    }
+
+
+
+    public static bool loginAccessAdmin(Student st){
+    
+      using (var context = new LibraryContext()){
+        var AdminsDB = context.admins; 
+        foreach(var a in AdminsDB){
+        if (st.email == a.email && st.password == a.password ){
+          return true ;
+            }
+            }
+        
+            return false ;
+          } 
+    }
+
+
      public static void InsertStudent(Student st)
     {
       using(var context = new LibraryContext())
@@ -80,6 +113,11 @@ namespace Gestion_Convention_stage.Contexts
       }
     }
 
-    
+
+  
+  
+
+
+ 
   }
 }

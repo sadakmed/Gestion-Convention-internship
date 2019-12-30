@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/akura/Software/Gestion_Convention_stage/Gestion_Convention_stage.csproj": {}
+    "C:\\Users\\Ali\\Desktop\\CODE\\dotnet app\\Gestion_Convention_stage\\Gestion_Convention_stage.csproj": {}
   },
   "projects": {
-    "/home/akura/Software/Gestion_Convention_stage/Gestion_Convention_stage.csproj": {
+    "C:\\Users\\Ali\\Desktop\\CODE\\dotnet app\\Gestion_Convention_stage\\Gestion_Convention_stage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/akura/Software/Gestion_Convention_stage/Gestion_Convention_stage.csproj",
+        "projectUniqueName": "C:\\Users\\Ali\\Desktop\\CODE\\dotnet app\\Gestion_Convention_stage\\Gestion_Convention_stage.csproj",
         "projectName": "Gestion_Convention_stage",
-        "projectPath": "/home/akura/Software/Gestion_Convention_stage/Gestion_Convention_stage.csproj",
-        "packagesPath": "/home/akura/.nuget/packages/",
-        "outputPath": "/home/akura/Software/Gestion_Convention_stage/obj/",
+        "projectPath": "C:\\Users\\Ali\\Desktop\\CODE\\dotnet app\\Gestion_Convention_stage\\Gestion_Convention_stage.csproj",
+        "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ali\\Desktop\\CODE\\dotnet app\\Gestion_Convention_stage\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/home/akura/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Ali\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -62,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
