@@ -150,3 +150,8 @@ C:\Users\SALOMEH\Desktop\asp.net\Gestion_Convention_stage\obj\Debug\netcoreapp3.
 C:\Users\SALOMEH\Desktop\asp.net\Gestion_Convention_stage\obj\Debug\netcoreapp3.1\Gestion_Convention_stage.csproj.CopyComplete
 C:\Users\SALOMEH\Desktop\asp.net\Gestion_Convention_stage\obj\Debug\netcoreapp3.1\Gestion_Convention_stage.dll
 C:\Users\SALOMEH\Desktop\asp.net\Gestion_Convention_stage\obj\Debug\netcoreapp3.1\Gestion_Convention_stage.pdb
+/home/akura/Software/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Razor/Views/Admin/Demandes.cshtml.g.cs
+/home/akura/Software/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Razor/Views/Admin/History.cshtml.g.cs
+>>>>>>> b4da27177477559e8cb11379c47ecb890138d294
+C:\Users\SALOMEH\Desktop\asp.net\Gestion_Convention_stage\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout_admin.cshtml.g.cs
+C:\Users\SALOMEH\Desktop\asp.net\Gestion_Convention_stage\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout_student.cshtml.g.cs

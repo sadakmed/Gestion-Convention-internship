@@ -21,8 +21,17 @@ namespace Gestion_Convention_stage.Controllers
             return View();
         }
 
+        public void Home(int apoge){
+            this.apoge=apoge;
+            Response.Redirect("Demande",true);
+        }
+
         public IActionResult Demande()
         {
+            Demande dd= new Demande();
+            dd.idStudent=this.apoge;
+            if (dd.checkDemande()==1 )
+                ViewData["button"]="disabled";
             return View();
         }
 

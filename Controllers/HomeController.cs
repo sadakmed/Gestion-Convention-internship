@@ -36,18 +36,18 @@ namespace Gestion_Convention_stage.Controllers
 
           public IActionResult login(Student st)
         {
-          Console.WriteLine(MyContext.loginAccessStudent(st));     
-          if (MyContext.loginAccessStudent(st)){
-              Console.WriteLine("in student controller");
-
+          var apoge=MyContext.loginAccessStudent(st);     
+          if (apoge!=-1){
+                Response.Redirect("/Student/Home?apoge="+apoge,true);
           }             
           else if (MyContext.loginAccessAdmin(st)) {
-
-              Console.WriteLine("in admin controller");
+                Response.Redirect("/Admin/Demandes",true);
           }
           else {
 
               Console.WriteLine("access access denied");
+              
+
           }
                 
             return View();

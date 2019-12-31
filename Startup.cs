@@ -51,6 +51,12 @@ namespace Gestion_Convention_stage
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapControllerRoute(
+                    name: "validation",
+                    pattern: "{controller=Admin}/{action=validation}/{id?}");
+                endpoints.MapControllerRoute(
+                    name: "refuse",
+                    pattern: "{controller=Admin}/{action=refuse}/{id?}");
             });
         }
     }

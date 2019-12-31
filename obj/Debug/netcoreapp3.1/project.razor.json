@@ -20569,6 +20569,16 @@
       "FilePath": "c:\\Users\\SALOMEH\\Desktop\\asp.net\\Gestion_Convention_stage\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\SALOMEH\\Desktop\\asp.net\\Gestion_Convention_stage\\Views\\Shared\\_Layout_student.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout_student.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\SALOMEH\\Desktop\\asp.net\\Gestion_Convention_stage\\Views\\Shared\\_Layout_admin.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout_admin.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"
