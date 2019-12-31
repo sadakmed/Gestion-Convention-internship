@@ -36,7 +36,8 @@ namespace Gestion_Convention_stage.Controllers
 
           public IActionResult login(Student st)
         {
-          var apoge=MyContext.loginAccessStudent(st);     
+          var apoge=MyContext.loginAccessStudent(st);   
+          Console.WriteLine(apoge);  
           if (apoge!=-1){
                 Response.Redirect("/Student/Home?apoge="+apoge,true);
           }             

@@ -2,6 +2,7 @@
 
 @{
     ViewData["Title"] = "Demande";
+    Layout="_Layout_student";
 }
 
 <div class="">
@@ -59,7 +60,7 @@
                             <div class="form-group">
                                 @Html.LabelFor(m=>m.from_date, new{@class="col-md-2 contorl-label"})
                                 <div class="col-md-10">
-                                   <input type="date" asp-for="from_date" />
+                                   <input type="date" asp-for="from_date" class="form-control" />
                                    @Html.ValidationMessageFor(m=>m.from_date)
                                 </div>
                             </div >
@@ -67,14 +68,15 @@
                             <div class="form-group">
                                 @Html.LabelFor(m=>m.from_date, new{@class="col-md-2 contorl-label"})
                                 <div class="col-md-10">
-                                  <input type="date" asp-for="to_date" />
+                                  <input type="date" asp-for="to_date" class="form-control" />
                                    @Html.ValidationMessageFor(m=>m.from_date)
                                 </div>
                             </div >
 
 
                             <div class="form-group">
-                                <button class="btn btn-default"  type="submit"  @ViewData["button"] >Submit</button>
+                                <button class="btn btn-primary"  type="submit"  @ViewData["button"] >Submit</button>
+                                <button class="btn btn-link"  type="reset" >Reset</button>
                             </div >
 
                          }

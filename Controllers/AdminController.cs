@@ -8,6 +8,8 @@ using Microsoft.Extensions.Logging;
 using Gestion_Convention_stage.Models;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Gestion_Convention_stage.Contexts;
+using Gestion_Convention_stage.Utils;
+using Newtonsoft.Json;
 
 
 namespace Gestion_Convention_stage.Controllers
@@ -24,20 +26,28 @@ namespace Gestion_Convention_stage.Controllers
        
 
         public IActionResult Demandes()
-        {   List<Student> list = new List<Student>();
-          
+        {   
             return View( MyContext.fetchDemands());
+        }
+
+         public IActionResult History()
+        {   
+            ViewData["demandes"] = JsonConvert.SerializeObject(MyContext.fetchAllDemands());
+
+            return View( );
         }
 
         public void validate(int id){
               
                MyContext.updateDemandeStatus(id,1);
+               Mail.sendMail("" , "sadak_med@protonmail.com", "votre demande etait accepté" ,"Votre demande est pres au service de scolarite");
                 Response.Redirect("Demandes",true);
                }
        
          public void refuse(int id){
 
                 MyContext.updateDemandeStatus(id,-1);
+               Mail.sendMail("" , "sadak_med@protonmail.com", "votre demande etait Refuse" ,"Votre demande est refuse change sil vvous plais merci.");
                 Response.Redirect("Demandes",true);
 
         }

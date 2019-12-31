@@ -39,9 +39,21 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
             "MySql.Data.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.10.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             }
           },
           "imports": [

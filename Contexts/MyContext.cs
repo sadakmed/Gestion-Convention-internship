@@ -19,7 +19,8 @@ namespace Gestion_Convention_stage.Contexts
         var StudentDB = context.student; 
         foreach(var a in StudentDB){
         if (st.email == a.email && st.password == a.password ){
-          return st.apoge ;
+          Console.WriteLine("existe");
+          return a.apoge ;
             }
             }
         
@@ -107,8 +108,11 @@ namespace Gestion_Convention_stage.Contexts
         var author = context.demande.FirstOrDefault(a => a.id == idD );
         author.status = status;
         context.SaveChanges();
-       
+        
+
       }
+      
+
       }
    
    public static void fetchStudent()
@@ -177,6 +181,34 @@ public static List<Student> fetchDemands()
             foreach (Student studen in students)
             {
                 if (demand.idStudent==studen.apoge && demand.status==0)
+                  {
+                      studen.demanda=demand;
+                      studentList.Add(studen);
+                  }
+            }
+
+        }
+                
+                return studentList;
+
+      }
+  }
+
+
+  public static List<Student> fetchAllDemands()
+    { List<Student> studentList = new List<Student>();    
+
+      // Gets and prints all books in database
+      using (var context = new LibraryContext())
+      {
+        var demandes =  context.demande;
+        var students = context.student;
+
+        foreach (Demande demand in demandes)
+        {
+            foreach (Student studen in students)
+            {
+                if (demand.idStudent==studen.apoge)
                   {
                       studen.demanda=demand;
                       studentList.Add(studen);

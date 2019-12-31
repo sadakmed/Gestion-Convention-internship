@@ -14,7 +14,7 @@ namespace Gestion_Convention_stage.Controllers
     public class StudentController:Controller
     {
      
-        public int apoge { get; set; }
+        public static int apoge { get; set; }
 
         public IActionResult Signup()
         {
@@ -22,14 +22,15 @@ namespace Gestion_Convention_stage.Controllers
         }
 
         public void Home(int apoge){
-            this.apoge=apoge;
+            StudentController.apoge=apoge;
             Response.Redirect("Demande",true);
         }
 
         public IActionResult Demande()
-        {
+        {   Console.WriteLine("from Demande function "+ StudentController.apoge);
+          Console.WriteLine("from Demande function viewData "+ ViewData["apoge"]);
             Demande dd= new Demande();
-            dd.idStudent=this.apoge;
+            dd.idStudent=StudentController.apoge;
             if (dd.checkDemande()==1 )
                 ViewData["button"]="disabled";
             return View();
@@ -39,15 +40,16 @@ namespace Gestion_Convention_stage.Controllers
 
 
         {   List<Demande> demandeList= new List<Demande>();
-            
-            demandeList=MyContext.fetchDemandeStudent(this.apoge); 
+            Console.WriteLine(" from "+StudentController.apoge);
+            demandeList=MyContext.fetchDemandeStudent(StudentController.apoge); 
             
             return View(demandeList);
         }
 
         public void saveStudent(Student student){
 
-            this.apoge=student.apoge;
+            StudentController.apoge=student.apoge;
+            ViewData["apoge"]=student.apoge;
             student.demande=0;
             
             
@@ -57,7 +59,7 @@ namespace Gestion_Convention_stage.Controllers
             Response.Redirect("Demande",true);
         }
         public void saveDemande(Demande de){
-            de.idStudent=this.apoge;
+            de.idStudent=StudentController.apoge;
             de.status=0;
             MyContext.InsertDemande(de);
             Response.Redirect("History",true);

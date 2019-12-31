@@ -101,3 +101,9 @@ C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcorea
 >>>>>>> Ali
 /home/akura/Software/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Razor/Views/Admin/Demandes.cshtml.g.cs
 /home/akura/Software/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Razor/Views/Admin/History.cshtml.g.cs
+/home/akura/Software/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/MailKit.dll
+/home/akura/Software/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/MimeKit.dll
+/home/akura/Software/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/home/akura/Software/Gestion_Convention_stage/bin/Debug/netcoreapp3.1/BouncyCastle.Crypto.dll
+/home/akura/Software/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout_admin.cshtml.g.cs
+/home/akura/Software/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout_student.cshtml.g.cs

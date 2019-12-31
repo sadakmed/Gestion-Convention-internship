@@ -3,6 +3,7 @@
 
 @{
     ViewData["Title"] = "Confirmation";
+    Layout="_Layout_admin";
 }
 
 
@@ -50,8 +51,8 @@
         <td>@item.demanda.intern_supervisor</td>
         <td>@item.demanda.extern_supervisor</td>
         <td>@item.demanda.company</td>
-        <td><a href="/Admin/validate?id=@item.demanda.id" >Validate</a></td>
-        <td><a href="/Admin/refuse?id=@item.demanda.id">Refuse</a></td>
+        <td><a href="/Admin/validate?id=@item.demanda.id" class="btn btn-success" >Validate</a></td>
+        <td><a href="/Admin/refuse?id=@item.demanda.id" class="btn btn-danger">Refuse</a></td>
     </tr>
 }
  

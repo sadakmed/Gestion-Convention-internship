@@ -38,6 +38,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/akura/Software/Gestion_Convention_stage/Views/Shared/_Layout_student.cshtml",
+      "TargetPath": "Views/Shared/_Layout_student.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/akura/Software/Gestion_Convention_stage/Views/Home/Privacy.cshtml",
       "TargetPath": "Views/Home/Privacy.cshtml",
       "FileKind": "mvc"
@@ -45,6 +50,11 @@
     {
       "FilePath": "/home/akura/Software/Gestion_Convention_stage/Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views/Shared/_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/akura/Software/Gestion_Convention_stage/Views/Shared/_Layout_admin.cshtml",
+      "TargetPath": "Views/Shared/_Layout_admin.cshtml",
       "FileKind": "mvc"
     },
     {
