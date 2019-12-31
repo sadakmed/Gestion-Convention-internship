@@ -13,7 +13,7 @@ namespace Gestion_Convention_stage.Contexts
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-      optionsBuilder.UseMySQL("server=localhost;database=stage;user=ali;password=joubir");
+      optionsBuilder.UseMySQL("server=localhost;database=stage;user=root;password= ");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
