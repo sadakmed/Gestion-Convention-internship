@@ -13,17 +13,17 @@ namespace Gestion_Convention_stage.Contexts
   {
 
 
-    public static bool loginAccessStudent(Student st){
+    public static int loginAccessStudent(Student st){
     
       using (var context = new LibraryContext()){
         var StudentDB = context.student; 
         foreach(var a in StudentDB){
         if (st.email == a.email && st.password == a.password ){
-          return true ;
+          return st.apoge ;
             }
             }
         
-            return false ;
+            return -1 ;
           } 
     }
 
@@ -82,7 +82,7 @@ namespace Gestion_Convention_stage.Contexts
         context.Database.EnsureCreated();
         
         if (de.checkDemande() == 0){
-    
+        //context.demande.First(b=>b.apoge==de.company)
         // Adds admins
         context.demande.Add(new Demande
         {
@@ -99,6 +99,17 @@ namespace Gestion_Convention_stage.Contexts
       }
     }
 
+   public static void updateDemandeStatus(int idD,int status)
+    {
+      using(var context = new LibraryContext())
+      {
+        
+        var author = context.demande.FirstOrDefault(a => a.id == idD );
+        author.status = status;
+        context.SaveChanges();
+       
+      }
+      }
    
    public static void fetchStudent()
     {
@@ -130,7 +141,8 @@ namespace Gestion_Convention_stage.Contexts
                                      select st);
                 return studentList;
 
-      }
+
+            }
   }
 
   public static List<Demande> fetchDemandeStudent(int apoge)
@@ -151,5 +163,35 @@ namespace Gestion_Convention_stage.Contexts
 
 
 
+public static List<Student> fetchDemands()
+    { List<Student> studentList = new List<Student>();    
+
+      // Gets and prints all books in database
+      using (var context = new LibraryContext())
+      {
+        var demandes =  context.demande;
+        var students = context.student;
+
+        foreach (Demande demand in demandes)
+        {
+            foreach (Student studen in students)
+            {
+                if (demand.idStudent==studen.apoge && demand.status==0)
+                  {
+                      studen.demanda=demand;
+                      studentList.Add(studen);
+                  }
+            }
+
+        }
+                
+                return studentList;
+
+      }
+  }
+
+
 
 }}
+
+

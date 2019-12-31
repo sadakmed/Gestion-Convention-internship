@@ -37,7 +37,9 @@ public class Student{
     [DataType(DataType.Password)]
     public string password{get;set;}
     
-    public int demande{ get;set; }
+     public int demande{ get;set; }
+    [NotMapped]
+    public Demande demanda{ get;set; }
 
     public int checkData(){
 

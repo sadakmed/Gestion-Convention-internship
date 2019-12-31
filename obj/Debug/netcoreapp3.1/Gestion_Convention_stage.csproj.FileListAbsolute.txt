@@ -99,3 +99,5 @@ C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcorea
 C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Gestion_Convention_stage.dll
 C:/Users/Ali/Desktop/CODE/dotnet app/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Gestion_Convention_stage.pdb
 >>>>>>> Ali
+/home/akura/Software/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Razor/Views/Admin/Demandes.cshtml.g.cs
+/home/akura/Software/Gestion_Convention_stage/obj/Debug/netcoreapp3.1/Razor/Views/Admin/History.cshtml.g.cs
