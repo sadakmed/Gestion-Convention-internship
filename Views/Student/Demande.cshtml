@@ -1,0 +1,102 @@
+@model Gestion_Convention_stage.Models.Demande
+
+@{
+    ViewData["Title"] = "Demande";
+    Layout="_Layout_student";
+}
+
+<div class="">
+
+<main class="my-form">
+    <div class="cotainer">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-header text-center">Demande</div>
+                        <div class="card-body">
+                          
+
+                        @using (Html.BeginForm("saveDemande","Student",FormMethod.Post,new{@class="form-horizontal"}))
+                         {
+                          <h4>Demande</h4>
+
+                            @* <div class="form-group">
+                                @Html.LabelFor(m=>m.apoge, new{@class="col-md-2 contorl-label"})
+                                <div class="col-md-10">
+                                   @Html.TextBoxFor(m=>m.apoge,new{@class="form-control"})
+                                   @Html.ValidationMessageFor(m=>m.apoge)
+                                </div>
+                            </div > *@
+
+
+
+                            <div class="form-group">
+                                @Html.LabelFor(m=>m.intern_supervisor, new{@class="col-md-2 contorl-label"})
+                                <div class="col-md-10">
+                                   @Html.TextBoxFor(m=>m.intern_supervisor,new{@class="form-control"})
+                                   @Html.ValidationMessageFor(m=>m.intern_supervisor)
+                                </div>
+                            </div >
+
+
+
+                            <div class="form-group">
+                                @Html.LabelFor(m=>m.extern_supervisor, new{@class="col-md-2 contorl-label"})
+                                <div class="col-md-10">
+                                   @Html.TextBoxFor(m=>m.extern_supervisor,new{@class="form-control"})
+                                   @Html.ValidationMessageFor(m=>m.extern_supervisor)
+                                </div>
+                            </div >
+
+                             <div class="form-group"> 
+                                @Html.LabelFor(m=>m.company, new{@class="col-md-2 control-label"})
+                                <div class="col-md-10">
+                                   @Html.TextBoxFor(m=>m.company,new{@class="form-control"})
+                                   @Html.ValidationMessageFor(m=>m.company)
+                                </div>
+                            </div >
+
+
+                            <div class="form-group">
+                                @Html.LabelFor(m=>m.from_date, new{@class="col-md-2 contorl-label"})
+                                <div class="col-md-10">
+                                   <input type="date" asp-for="from_date" class="form-control" />
+                                   @Html.ValidationMessageFor(m=>m.from_date)
+                                </div>
+                            </div >
+
+                            <div class="form-group">
+                                @Html.LabelFor(m=>m.from_date, new{@class="col-md-2 contorl-label"})
+                                <div class="col-md-10">
+                                  <input type="date" asp-for="to_date" class="form-control" />
+                                   @Html.ValidationMessageFor(m=>m.from_date)
+                                </div>
+                            </div >
+
+
+                            <div class="form-group">
+                                <button class="btn btn-primary"  type="submit"  @ViewData["button"] >Submit</button>
+                                <button class="btn btn-link"  type="reset" >Reset</button>
+                            </div >
+
+                         }
+
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+
+</div>
+
+
+<script src="@Url.Content("~/lib/jquery-validation/dist/jquery.validate.min.js")" type="text/javascript"></script> 
+<script src="@Url.Content("~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script> 
+<script>
+
+
+
+</script>
